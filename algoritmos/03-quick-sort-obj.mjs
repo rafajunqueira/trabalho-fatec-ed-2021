@@ -41,8 +41,8 @@ trocas = 0, comps = 0, pass = 0
 console.time('Ordenando candidatos...')
 quickSort(candidatos, (a, b) => {
     if (a.SG_UE === b.SG_UE) { // Empate na UF
-        // Empte no cargo, desempate no número do candidato
-        if (a.DS_CARGO === b.CARGO) return a.NR_CANDIDATO > b.NR_CANDIDATO
+        // Empate no cargo, desempate no número do candidato
+        if (a.DS_CARGO === b.DS_CARGO) return a.NR_CANDIDATO > b.NR_CANDIDATO
         // UF igual, cargos diferentes, diferencia por cargo
         else return a.DS_CARGO > b.DS_CARGO
     }

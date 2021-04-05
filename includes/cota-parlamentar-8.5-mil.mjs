@@ -1,4 +1,4 @@
-export const gastos = [
+export const gastos1 = [
 	{
 		"data_emissao": "2020-02-01 00:00:00",
 		"id_documento": 7007086,
